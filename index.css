@@ -23,24 +23,32 @@ body {
 	color: #f5f5f5;
 }
 
+
 #margarita {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 6%;
+	max-width: 90%;
 }
 
 .container {
-	max-width: 900px;
+	width: 900px;
+	max-width: 90%;
 	margin: auto;
 }
 
 header {
+	max-width: 90%;
+	margin: auto;
+}
+
+header h1 {
 	font-family: "helvetica-neue-ultra-light-condensed", Arial,sans-serif;
 	font-weight: lighter;
-	margin: auto;
 	text-align: center;
-	font-size: 9.0em;
+	font-size: 8.0em;
+	max-width: 100%;
 }
 
 #cheese {
@@ -112,3 +120,6 @@ button a {
 	color: #66CDAA;
 	text-decoration: none;
 }
+
+
+
